@@ -1,0 +1,775 @@
+{
+  "mode": "cursor_llm_agent",
+  "llm_enabled": true,
+  "strategy_probe_plan": [],
+  "strategy_probe_results": [],
+  "crawler_quality": {
+    "product_page_hit_rate": 0.0,
+    "collection_page_hit_rate": 0.0,
+    "add_to_cart_probe_success_rate": 0.0,
+    "cart_visibility_rate": 0.0,
+    "checkout_handoff_validation_rate": 0.0,
+    "top_funnel_evidence_rate": 0.0,
+    "visited_strategy_page_types": [
+      "homepage"
+    ]
+  },
+  "policy_counts": {
+    "heuristic_fallback": 6,
+    "heuristic": 5
+  },
+  "pages_visited": 6,
+  "total_steps": 13,
+  "on_site_actions": 90,
+  "aria_match_rate": 0.0222,
+  "activation_rate": 0.0778,
+  "aria_matched_action_ids": [
+    "home::action_1",
+    "home::action_2"
+  ],
+  "activated_action_ids": [
+    "home::action_1",
+    "home::action_2",
+    "llm_link_Books",
+    "llm_link_Historical Fiction",
+    "llm_link_Home",
+    "llm_link_Mystery",
+    "llm_link_Travel"
+  ],
+  "page_results": [
+    {
+      "page_id": "home",
+      "path": "/",
+      "url": "https://books.toscrape.com/",
+      "expected_on_site_actions": 2,
+      "aria_matched_actions": 2,
+      "activated_actions": 7,
+      "strategy_page_type": "homepage",
+      "signals": {
+        "page_path": "/",
+        "page_type": "homepage",
+        "primary_ctas": [],
+        "variant_controls": {
+          "static": true,
+          "hydrated": false,
+          "names": []
+        },
+        "add_to_cart_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "cart_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "checkout_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "line_item_visible": {
+          "static": false,
+          "hydrated": false
+        }
+      },
+      "error": null
+    },
+    {
+      "page_id": "a-light-in-the-attic_1000",
+      "path": "/a-light-in-the-attic_1000",
+      "url": "https://books.toscrape.com/a-light-in-the-attic_1000",
+      "expected_on_site_actions": 0,
+      "aria_matched_actions": 0,
+      "activated_actions": 0,
+      "strategy_page_type": "",
+      "signals": {
+        "page_path": "/a-light-in-the-attic_1000",
+        "page_type": "",
+        "primary_ctas": [],
+        "variant_controls": {
+          "static": false,
+          "hydrated": false,
+          "names": []
+        },
+        "add_to_cart_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "cart_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "checkout_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "line_item_visible": {
+          "static": false,
+          "hydrated": false
+        }
+      },
+      "error": null
+    },
+    {
+      "page_id": "sapiens-a-brief-history-of-humankind_996",
+      "path": "/sapiens-a-brief-history-of-humankind_996",
+      "url": "https://books.toscrape.com/sapiens-a-brief-history-of-humankind_996",
+      "expected_on_site_actions": 0,
+      "aria_matched_actions": 0,
+      "activated_actions": 0,
+      "strategy_page_type": "",
+      "signals": {
+        "page_path": "/sapiens-a-brief-history-of-humankind_996",
+        "page_type": "",
+        "primary_ctas": [],
+        "variant_controls": {
+          "static": false,
+          "hydrated": false,
+          "names": []
+        },
+        "add_to_cart_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "cart_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "checkout_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "line_item_visible": {
+          "static": false,
+          "hydrated": false
+        }
+      },
+      "error": null
+    },
+    {
+      "page_id": "sharp-objects_997",
+      "path": "/sharp-objects_997",
+      "url": "https://books.toscrape.com/sharp-objects_997",
+      "expected_on_site_actions": 0,
+      "aria_matched_actions": 0,
+      "activated_actions": 0,
+      "strategy_page_type": "",
+      "signals": {
+        "page_path": "/sharp-objects_997",
+        "page_type": "",
+        "primary_ctas": [],
+        "variant_controls": {
+          "static": false,
+          "hydrated": false,
+          "names": []
+        },
+        "add_to_cart_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "cart_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "checkout_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "line_item_visible": {
+          "static": false,
+          "hydrated": false
+        }
+      },
+      "error": null
+    },
+    {
+      "page_id": "soumission_998",
+      "path": "/soumission_998",
+      "url": "https://books.toscrape.com/soumission_998",
+      "expected_on_site_actions": 0,
+      "aria_matched_actions": 0,
+      "activated_actions": 0,
+      "strategy_page_type": "",
+      "signals": {
+        "page_path": "/soumission_998",
+        "page_type": "",
+        "primary_ctas": [],
+        "variant_controls": {
+          "static": false,
+          "hydrated": false,
+          "names": []
+        },
+        "add_to_cart_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "cart_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "checkout_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "line_item_visible": {
+          "static": false,
+          "hydrated": false
+        }
+      },
+      "error": null
+    },
+    {
+      "page_id": "the-coming-woman-a-novel-based-on-the-li",
+      "path": "/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993",
+      "url": "https://books.toscrape.com/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993",
+      "expected_on_site_actions": 0,
+      "aria_matched_actions": 0,
+      "activated_actions": 0,
+      "strategy_page_type": "",
+      "signals": {
+        "page_path": "/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993",
+        "page_type": "",
+        "primary_ctas": [],
+        "variant_controls": {
+          "static": false,
+          "hydrated": false,
+          "names": []
+        },
+        "add_to_cart_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "cart_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "checkout_visible": {
+          "static": false,
+          "hydrated": false
+        },
+        "line_item_visible": {
+          "static": false,
+          "hydrated": false
+        }
+      },
+      "error": null
+    }
+  ],
+  "events_count": 13,
+  "events": [
+    {
+      "run_id": "run_5ae055328c06",
+      "session_id": "cursor_llm_6333f5ea",
+      "task_id": "cursor_explore",
+      "snapshot_phase": "before",
+      "step": 1,
+      "action": "VIEW_PAGE",
+      "url": "https://books.toscrape.com/",
+      "element_name": "",
+      "element_role": "",
+      "duration_ms": 0,
+      "success": false,
+      "metadata": {
+        "screenshots": {
+          "viewport": {
+            "url": "/api/ingress/runs/run_5ae055328c06/screenshots/home_step1.png",
+            "label": "home_step1.png"
+          }
+        },
+        "path": "/",
+        "policy": "llm"
+      }
+    },
+    {
+      "run_id": "run_5ae055328c06",
+      "session_id": "cursor_llm_6333f5ea",
+      "task_id": "cursor_explore",
+      "snapshot_phase": "before",
+      "step": 2,
+      "action": "CLICK",
+      "url": "https://books.toscrape.com/index.html",
+      "element_name": "Home",
+      "element_role": "link",
+      "duration_ms": 0,
+      "success": true,
+      "metadata": {
+        "action_id": "home::action_2",
+        "policy": "catalog_activation",
+        "navigated": true,
+        "catalog_activation": true
+      }
+    },
+    {
+      "run_id": "run_5ae055328c06",
+      "session_id": "cursor_llm_6333f5ea",
+      "task_id": "cursor_explore",
+      "snapshot_phase": "before",
+      "step": 3,
+      "action": "CLICK",
+      "url": "https://books.toscrape.com/index.html",
+      "element_name": "Home",
+      "element_role": "link",
+      "duration_ms": 0,
+      "success": false,
+      "metadata": {
+        "action_id": "llm_link_Home",
+        "policy": "heuristic_fallback",
+        "reason": "Heuristic: short on-site link prefered.",
+        "navigated": false,
+        "screenshots": {
+          "after_click": {
+            "url": "/api/ingress/runs/run_5ae055328c06/screenshots/home_step3.png",
+            "label": "home_step3.png"
+          }
+        }
+      }
+    },
+    {
+      "run_id": "run_5ae055328c06",
+      "session_id": "cursor_llm_6333f5ea",
+      "task_id": "cursor_explore",
+      "snapshot_phase": "before",
+      "step": 4,
+      "action": "CLICK",
+      "url": "https://books.toscrape.com/index.html",
+      "element_name": "Books to Scrape",
+      "element_role": "link",
+      "duration_ms": 0,
+      "success": false,
+      "metadata": {
+        "action_id": "home::action_1",
+        "policy": "heuristic_fallback",
+        "reason": "Heuristic: short on-site link prefered.",
+        "navigated": false,
+        "screenshots": {
+          "after_click": {
+            "url": "/api/ingress/runs/run_5ae055328c06/screenshots/home_step4.png",
+            "label": "home_step4.png"
+          }
+        }
+      }
+    },
+    {
+      "run_id": "run_5ae055328c06",
+      "session_id": "cursor_llm_6333f5ea",
+      "task_id": "cursor_explore",
+      "snapshot_phase": "before",
+      "step": 5,
+      "action": "CLICK",
+      "url": "https://books.toscrape.com/index.html",
+      "element_name": "Books",
+      "element_role": "link",
+      "duration_ms": 0,
+      "success": false,
+      "metadata": {
+        "action_id": "llm_link_Books",
+        "policy": "heuristic_fallback",
+        "reason": "Heuristic: short on-site link prefered.",
+        "navigated": false,
+        "screenshots": {
+          "after_click": {
+            "url": "/api/ingress/runs/run_5ae055328c06/screenshots/home_step5.png",
+            "label": "home_step5.png"
+          }
+        }
+      }
+    },
+    {
+      "run_id": "run_5ae055328c06",
+      "session_id": "cursor_llm_6333f5ea",
+      "task_id": "cursor_explore",
+      "snapshot_phase": "before",
+      "step": 6,
+      "action": "CLICK",
+      "url": "https://books.toscrape.com/catalogue/category/books/travel_2/index.html",
+      "element_name": "Travel",
+      "element_role": "link",
+      "duration_ms": 0,
+      "success": true,
+      "metadata": {
+        "action_id": "llm_link_Travel",
+        "policy": "heuristic_fallback",
+        "reason": "Heuristic: short on-site link prefered.",
+        "navigated": true,
+        "screenshots": {
+          "after_click": {
+            "url": "/api/ingress/runs/run_5ae055328c06/screenshots/home_step6.png",
+            "label": "home_step6.png"
+          }
+        }
+      }
+    },
+    {
+      "run_id": "run_5ae055328c06",
+      "session_id": "cursor_llm_6333f5ea",
+      "task_id": "cursor_explore",
+      "snapshot_phase": "before",
+      "step": 7,
+      "action": "CLICK",
+      "url": "https://books.toscrape.com/catalogue/category/books/mystery_3/index.html",
+      "element_name": "Mystery",
+      "element_role": "link",
+      "duration_ms": 0,
+      "success": true,
+      "metadata": {
+        "action_id": "llm_link_Mystery",
+        "policy": "heuristic_fallback",
+        "reason": "Heuristic: short on-site link prefered.",
+        "navigated": true,
+        "screenshots": {
+          "after_click": {
+            "url": "/api/ingress/runs/run_5ae055328c06/screenshots/home_step7.png",
+            "label": "home_step7.png"
+          }
+        }
+      }
+    },
+    {
+      "run_id": "run_5ae055328c06",
+      "session_id": "cursor_llm_6333f5ea",
+      "task_id": "cursor_explore",
+      "snapshot_phase": "before",
+      "step": 8,
+      "action": "CLICK",
+      "url": "https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html",
+      "element_name": "Historical Fiction",
+      "element_role": "link",
+      "duration_ms": 0,
+      "success": true,
+      "metadata": {
+        "action_id": "llm_link_Historical Fiction",
+        "policy": "heuristic_fallback",
+        "reason": "Heuristic: short on-site link prefered.",
+        "navigated": true,
+        "screenshots": {
+          "after_click": {
+            "url": "/api/ingress/runs/run_5ae055328c06/screenshots/home_step8.png",
+            "label": "home_step8.png"
+          }
+        }
+      }
+    },
+    {
+      "run_id": "run_5ae055328c06",
+      "session_id": "cursor_llm_6333f5ea",
+      "task_id": "cursor_explore",
+      "snapshot_phase": "before",
+      "step": 9,
+      "action": "VIEW_PAGE",
+      "url": "https://books.toscrape.com/a-light-in-the-attic_1000",
+      "element_name": "",
+      "element_role": "",
+      "duration_ms": 0,
+      "success": false,
+      "metadata": {
+        "screenshots": {
+          "viewport": {
+            "url": "/api/ingress/runs/run_5ae055328c06/screenshots/a-light-in-the-attic_1000_step9.png",
+            "label": "a-light-in-the-attic_1000_step9.png"
+          }
+        },
+        "path": "/a-light-in-the-attic_1000",
+        "policy": "llm"
+      }
+    },
+    {
+      "run_id": "run_5ae055328c06",
+      "session_id": "cursor_llm_6333f5ea",
+      "task_id": "cursor_explore",
+      "snapshot_phase": "before",
+      "step": 10,
+      "action": "VIEW_PAGE",
+      "url": "https://books.toscrape.com/sapiens-a-brief-history-of-humankind_996",
+      "element_name": "",
+      "element_role": "",
+      "duration_ms": 0,
+      "success": false,
+      "metadata": {
+        "screenshots": {
+          "viewport": {
+            "url": "/api/ingress/runs/run_5ae055328c06/screenshots/sapiens-a-brief-history-of-humankind_996_step10.png",
+            "label": "sapiens-a-brief-history-of-humankind_996_step10.png"
+          }
+        },
+        "path": "/sapiens-a-brief-history-of-humankind_996",
+        "policy": "llm"
+      }
+    },
+    {
+      "run_id": "run_5ae055328c06",
+      "session_id": "cursor_llm_6333f5ea",
+      "task_id": "cursor_explore",
+      "snapshot_phase": "before",
+      "step": 11,
+      "action": "VIEW_PAGE",
+      "url": "https://books.toscrape.com/sharp-objects_997",
+      "element_name": "",
+      "element_role": "",
+      "duration_ms": 0,
+      "success": false,
+      "metadata": {
+        "screenshots": {
+          "viewport": {
+            "url": "/api/ingress/runs/run_5ae055328c06/screenshots/sharp-objects_997_step11.png",
+            "label": "sharp-objects_997_step11.png"
+          }
+        },
+        "path": "/sharp-objects_997",
+        "policy": "llm"
+      }
+    },
+    {
+      "run_id": "run_5ae055328c06",
+      "session_id": "cursor_llm_6333f5ea",
+      "task_id": "cursor_explore",
+      "snapshot_phase": "before",
+      "step": 12,
+      "action": "VIEW_PAGE",
+      "url": "https://books.toscrape.com/soumission_998",
+      "element_name": "",
+      "element_role": "",
+      "duration_ms": 0,
+      "success": false,
+      "metadata": {
+        "screenshots": {
+          "viewport": {
+            "url": "/api/ingress/runs/run_5ae055328c06/screenshots/soumission_998_step12.png",
+            "label": "soumission_998_step12.png"
+          }
+        },
+        "path": "/soumission_998",
+        "policy": "llm"
+      }
+    },
+    {
+      "run_id": "run_5ae055328c06",
+      "session_id": "cursor_llm_6333f5ea",
+      "task_id": "cursor_explore",
+      "snapshot_phase": "before",
+      "step": 13,
+      "action": "VIEW_PAGE",
+      "url": "https://books.toscrape.com/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993",
+      "element_name": "",
+      "element_role": "",
+      "duration_ms": 0,
+      "success": false,
+      "metadata": {
+        "screenshots": {
+          "viewport": {
+            "url": "/api/ingress/runs/run_5ae055328c06/screenshots/the-coming-woman-a-novel-based-on-the-li_step13.png",
+            "label": "the-coming-woman-a-novel-based-on-the-li_step13.png"
+          }
+        },
+        "path": "/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993",
+        "policy": "llm"
+      }
+    }
+  ],
+  "explore_jobs": [
+    {
+      "id": "orient",
+      "job": "Orient on homepage",
+      "goal": "Land on the homepage and confirm primary navigation is visible in the accessibility tree.",
+      "path_prefixes": [
+        "/"
+      ],
+      "page_ids": [
+        "home"
+      ],
+      "nav_keywords": [
+        "home"
+      ],
+      "require_deep_path": false,
+      "require_page_view": true
+    },
+    {
+      "id": "product",
+      "job": "Explore product offer",
+      "goal": "Reach a primary product or feature page and confirm it is agent-navigable.",
+      "path_prefixes": [
+        "catalogue/category/books_1/index.html",
+        "catalogue/category/books/historical-fiction_4/index.html",
+        "catalogue/category/books/mystery_3/index.html",
+        "catalogue/category/books/sequential-art_5/index.html"
+      ],
+      "page_ids": [],
+      "nav_keywords": [
+        "product",
+        "feature",
+        "solution",
+        "agent",
+        "learn more"
+      ],
+      "require_deep_path": false,
+      "require_page_view": true
+    }
+  ],
+  "job_progress": {
+    "jobs": [
+      {
+        "id": "orient",
+        "job": "Orient on homepage",
+        "goal": "Land on the homepage and confirm primary navigation is visible in the accessibility tree.",
+        "path_prefixes": [
+          "/"
+        ],
+        "page_ids": [
+          "home"
+        ],
+        "nav_keywords": [
+          "home"
+        ],
+        "require_deep_path": false,
+        "require_page_view": true
+      },
+      {
+        "id": "product",
+        "job": "Explore product offer",
+        "goal": "Reach a primary product or feature page and confirm it is agent-navigable.",
+        "path_prefixes": [
+          "catalogue/category/books_1/index.html",
+          "catalogue/category/books/historical-fiction_4/index.html",
+          "catalogue/category/books/mystery_3/index.html",
+          "catalogue/category/books/sequential-art_5/index.html"
+        ],
+        "page_ids": [],
+        "nav_keywords": [
+          "product",
+          "feature",
+          "solution",
+          "agent",
+          "learn more"
+        ],
+        "require_deep_path": false,
+        "require_page_view": true
+      }
+    ],
+    "state": {
+      "orient": {
+        "paths": [
+          "/"
+        ],
+        "clicks": [
+          {
+            "name": "Home",
+            "path": "/index.html",
+            "success": true,
+            "navigated": true
+          },
+          {
+            "name": "Home",
+            "path": "/index.html",
+            "success": false,
+            "navigated": false
+          }
+        ],
+        "deep_reached": false,
+        "attempted": true
+      },
+      "product": {
+        "paths": [],
+        "clicks": [],
+        "deep_reached": false,
+        "attempted": false
+      }
+    }
+  },
+  "explore_min_steps": 15,
+  "explore_valid": false,
+  "activation_log": [
+    {
+      "action_id": "home::action_2",
+      "page_url": "https://books.toscrape.com/index.html",
+      "role": "link",
+      "accessible_name": "Home",
+      "href": "/",
+      "in_static_html": true,
+      "in_hydrated_tree": true,
+      "activation_attempted": true,
+      "activation_result": "clicked",
+      "step_index": 2
+    },
+    {
+      "action_id": null,
+      "page_url": "https://books.toscrape.com/index.html",
+      "role": "link",
+      "accessible_name": "",
+      "href": "",
+      "in_static_html": false,
+      "in_hydrated_tree": true,
+      "activation_attempted": true,
+      "activation_result": "clicked",
+      "step_index": 2
+    },
+    {
+      "action_id": "home::action_1",
+      "page_url": "https://books.toscrape.com/index.html",
+      "role": "link",
+      "accessible_name": "Books to Scrape",
+      "href": "/",
+      "in_static_html": true,
+      "in_hydrated_tree": true,
+      "activation_attempted": true,
+      "activation_result": "clicked",
+      "step_index": 3
+    },
+    {
+      "action_id": null,
+      "page_url": "https://books.toscrape.com/index.html",
+      "role": "link",
+      "accessible_name": "",
+      "href": "",
+      "in_static_html": false,
+      "in_hydrated_tree": true,
+      "activation_attempted": true,
+      "activation_result": "clicked",
+      "step_index": 4
+    },
+    {
+      "action_id": null,
+      "page_url": "https://books.toscrape.com/catalogue/category/books/travel_2/index.html",
+      "role": "link",
+      "accessible_name": "",
+      "href": "",
+      "in_static_html": false,
+      "in_hydrated_tree": true,
+      "activation_attempted": true,
+      "activation_result": "clicked",
+      "step_index": 5
+    },
+    {
+      "action_id": null,
+      "page_url": "https://books.toscrape.com/catalogue/category/books/mystery_3/index.html",
+      "role": "link",
+      "accessible_name": "",
+      "href": "",
+      "in_static_html": false,
+      "in_hydrated_tree": true,
+      "activation_attempted": true,
+      "activation_result": "clicked",
+      "step_index": 6
+    },
+    {
+      "action_id": null,
+      "page_url": "https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html",
+      "role": "link",
+      "accessible_name": "",
+      "href": "",
+      "in_static_html": false,
+      "in_hydrated_tree": true,
+      "activation_attempted": true,
+      "activation_result": "clicked",
+      "step_index": 7
+    }
+  ],
+  "explore_prompt_appendix": "You audit sites via the accessibility tree (getByRole, aria snapshots), not pixels.\nUse getByRole('link', { name: /^HOME$/i }) for primary nav.\nFor article lists, match title substring only \u2014 not full date+title+description.\nFor \"\u2190 back\", use getByRole('link', { name: /back/i }).\nDo not recommend adding accessible names when the hydrated tree already has one.",
+  "activation_budget": {
+    "required": [
+      "home"
+    ],
+    "met": [
+      "home"
+    ],
+    "complete": true
+  },
+  "note": "Cursor-style simulation: Playwright aria_snapshot + getByRole. LLM chooses each click from the accessibility tree."
+}

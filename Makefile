@@ -1,6 +1,6 @@
 PYTHON := $(shell command -v python3.10 2>/dev/null || command -v python3)
 
-.PHONY: install dev backend worker frontend test smoke
+.PHONY: install dev backend worker frontend test smoke sample
 
 install:
 	@if [ -z "$(PYTHON)" ]; then echo "Need python3.10 or python3 on PATH"; exit 1; fi
@@ -25,3 +25,12 @@ test:
 
 smoke:
 	curl -s http://127.0.0.1:5055/api/ingress/runs | head -c 200
+
+# Seed the checked-in books.toscrape.com sample report into local uploads.
+sample:
+	@test -d examples/books-toscrape/run || (echo "Missing examples/books-toscrape/run"; exit 1)
+	mkdir -p backend/uploads/runs
+	rm -rf backend/uploads/runs/sample_books_toscrape
+	cp -R examples/books-toscrape/run backend/uploads/runs/sample_books_toscrape
+	@echo "Sample ready → http://localhost:5175/app/runs/sample_books_toscrape"
+	@echo "(API must be running: make backend)"

@@ -1,0 +1,2123 @@
+{
+  "variants": [
+    {
+      "id": "before",
+      "name": "Before fixes",
+      "navigation_graph": {
+        "variant_id": "A",
+        "start_page_id": "home",
+        "pages": [
+          {
+            "id": "home",
+            "path": "/",
+            "title": "All products | Books to Scrape - Sandbox",
+            "is_start": true,
+            "is_conversion": false,
+            "action_count": 16
+          },
+          {
+            "id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "path": "/catalogue/sapiens-a-brief-history-of-humankind_996",
+            "title": "Sapiens: A Brief History of Humankind | Books to Scrape - Sandbox",
+            "is_start": false,
+            "is_conversion": false,
+            "action_count": 12
+          },
+          {
+            "id": "catalogue_the_requiem_red_995",
+            "path": "/catalogue/the-requiem-red_995",
+            "title": "The Requiem Red | Books to Scrape - Sandbox",
+            "is_start": false,
+            "is_conversion": false,
+            "action_count": 14
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "path": "/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994",
+            "title": "The Dirty Little Secrets of Getting Your Dream Job | Books to Scrape - Sandbox",
+            "is_start": false,
+            "is_conversion": false,
+            "action_count": 16
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "path": "/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993",
+            "title": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull | Books to Scrape - Sandbox",
+            "is_start": false,
+            "is_conversion": false,
+            "action_count": 16
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "path": "/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992",
+            "title": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics | Books to Scrape - Sandbox",
+            "is_start": false,
+            "is_conversion": false,
+            "action_count": 16
+          }
+        ],
+        "actions": [
+          {
+            "id": "home::action_1",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Books to Scrape",
+            "role": "link",
+            "raw_target": "index.html",
+            "target_kind": "internal_page",
+            "target_page_id": "home",
+            "target_path": "/",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_1"
+            }
+          },
+          {
+            "id": "home::action_2",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Home",
+            "role": "link",
+            "raw_target": "index.html",
+            "target_kind": "internal_page",
+            "target_page_id": "home",
+            "target_path": "/",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_2"
+            }
+          },
+          {
+            "id": "home::action_3",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"catalogue/category/books_1/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Books",
+            "role": "link",
+            "raw_target": "catalogue/category/books_1/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/category/books_1",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "catalogue/category/books_1/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_3"
+            }
+          },
+          {
+            "id": "home::action_4",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"catalogue/category/books/travel_2/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Travel",
+            "role": "link",
+            "raw_target": "catalogue/category/books/travel_2/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/category/books/travel_2",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "catalogue/category/books/travel_2/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_4"
+            }
+          },
+          {
+            "id": "home::action_5",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"catalogue/category/books/mystery_3/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Mystery",
+            "role": "link",
+            "raw_target": "catalogue/category/books/mystery_3/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/category/books/mystery_3",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "catalogue/category/books/mystery_3/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_5"
+            }
+          },
+          {
+            "id": "home::action_6",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"catalogue/category/books/historical-fiction_4/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Historical Fiction",
+            "role": "link",
+            "raw_target": "catalogue/category/books/historical-fiction_4/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/category/books/historical-fiction_4",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "catalogue/category/books/historical-fiction_4/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_6"
+            }
+          },
+          {
+            "id": "home::action_7",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"catalogue/category/books/sequential-art_5/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Sequential Art",
+            "role": "link",
+            "raw_target": "catalogue/category/books/sequential-art_5/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/category/books/sequential-art_5",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "catalogue/category/books/sequential-art_5/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_7"
+            }
+          },
+          {
+            "id": "home::action_8",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"catalogue/category/books/classics_6/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Classics",
+            "role": "link",
+            "raw_target": "catalogue/category/books/classics_6/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/category/books/classics_6",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "catalogue/category/books/classics_6/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_8"
+            }
+          },
+          {
+            "id": "home::action_9",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"catalogue/category/books/philosophy_7/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Philosophy",
+            "role": "link",
+            "raw_target": "catalogue/category/books/philosophy_7/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/category/books/philosophy_7",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "catalogue/category/books/philosophy_7/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_9"
+            }
+          },
+          {
+            "id": "home::action_10",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"catalogue/category/books/romance_8/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Romance",
+            "role": "link",
+            "raw_target": "catalogue/category/books/romance_8/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/category/books/romance_8",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "catalogue/category/books/romance_8/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_10"
+            }
+          },
+          {
+            "id": "home::action_11",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"catalogue/category/books/womens-fiction_9/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Womens Fiction",
+            "role": "link",
+            "raw_target": "catalogue/category/books/womens-fiction_9/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/category/books/womens-fiction_9",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "catalogue/category/books/womens-fiction_9/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_11"
+            }
+          },
+          {
+            "id": "home::action_12",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"catalogue/category/books/fiction_10/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Fiction",
+            "role": "link",
+            "raw_target": "catalogue/category/books/fiction_10/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/category/books/fiction_10",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "catalogue/category/books/fiction_10/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_12"
+            }
+          },
+          {
+            "id": "home::action_13",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"catalogue/category/books/childrens_11/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Childrens",
+            "role": "link",
+            "raw_target": "catalogue/category/books/childrens_11/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/category/books/childrens_11",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "catalogue/category/books/childrens_11/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_13"
+            }
+          },
+          {
+            "id": "home::action_14",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"catalogue/category/books/religion_12/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Religion",
+            "role": "link",
+            "raw_target": "catalogue/category/books/religion_12/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/category/books/religion_12",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "catalogue/category/books/religion_12/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_14"
+            }
+          },
+          {
+            "id": "home::action_15",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"catalogue/category/books/nonfiction_13/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Nonfiction",
+            "role": "link",
+            "raw_target": "catalogue/category/books/nonfiction_13/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/category/books/nonfiction_13",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "catalogue/category/books/nonfiction_13/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_15"
+            }
+          },
+          {
+            "id": "home::action_16",
+            "page_id": "home",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"catalogue/category/books/music_14/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Music",
+            "role": "link",
+            "raw_target": "catalogue/category/books/music_14/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/category/books/music_14",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "catalogue/category/books/music_14/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_16"
+            }
+          },
+          {
+            "id": "catalogue_sapiens_a_brief_history_of_humankind_996::action_1",
+            "page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../../index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Books to Scrape",
+            "role": "link",
+            "raw_target": "../../index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../..",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../../index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_1"
+            }
+          },
+          {
+            "id": "catalogue_sapiens_a_brief_history_of_humankind_996::action_2",
+            "page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../../index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Home",
+            "role": "link",
+            "raw_target": "../../index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../..",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../../index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_2"
+            }
+          },
+          {
+            "id": "catalogue_sapiens_a_brief_history_of_humankind_996::action_3",
+            "page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../category/books_1/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Books",
+            "role": "link",
+            "raw_target": "../category/books_1/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../category/books_1",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../category/books_1/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_3"
+            }
+          },
+          {
+            "id": "catalogue_sapiens_a_brief_history_of_humankind_996::action_4",
+            "page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../category/books/history_32/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "History",
+            "role": "link",
+            "raw_target": "../category/books/history_32/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../category/books/history_32",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../category/books/history_32/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_4"
+            }
+          },
+          {
+            "id": "catalogue_sapiens_a_brief_history_of_humankind_996::action_5",
+            "page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Sharp Objects\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Sharp Objects",
+            "role": "link",
+            "raw_target": "../sharp-objects_997/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../sharp-objects_997",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../sharp-objects_997/index.html",
+              "title": "Sharp Objects"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_5"
+            }
+          },
+          {
+            "id": "catalogue_sapiens_a_brief_history_of_humankind_996::action_6",
+            "page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Soumission\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Soumission",
+            "role": "link",
+            "raw_target": "../soumission_998/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../soumission_998",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../soumission_998/index.html",
+              "title": "Soumission"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_6"
+            }
+          },
+          {
+            "id": "catalogue_sapiens_a_brief_history_of_humankind_996::action_7",
+            "page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Tipping the Velvet\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Tipping the Velvet",
+            "role": "link",
+            "raw_target": "../tipping-the-velvet_999/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../tipping-the-velvet_999",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../tipping-the-velvet_999/index.html",
+              "title": "Tipping the Velvet"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_7"
+            }
+          },
+          {
+            "id": "catalogue_sapiens_a_brief_history_of_humankind_996::action_8",
+            "page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"A Light in the Attic\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "A Light in the ...",
+            "role": "link",
+            "raw_target": "../a-light-in-the-attic_1000/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../a-light-in-the-attic_1000",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../a-light-in-the-attic_1000/index.html",
+              "title": "A Light in the Attic"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_8"
+            }
+          },
+          {
+            "id": "catalogue_sapiens_a_brief_history_of_humankind_996::form_1",
+            "page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_1\"]",
+            "tag": "form",
+            "element_id": "form_1",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "target_path": "/catalogue/sapiens-a-brief-history-of-humankind_996",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_1"
+            }
+          },
+          {
+            "id": "catalogue_sapiens_a_brief_history_of_humankind_996::form_2",
+            "page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_2\"]",
+            "tag": "form",
+            "element_id": "form_2",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "target_path": "/catalogue/sapiens-a-brief-history-of-humankind_996",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_2"
+            }
+          },
+          {
+            "id": "catalogue_sapiens_a_brief_history_of_humankind_996::form_3",
+            "page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_3\"]",
+            "tag": "form",
+            "element_id": "form_3",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "target_path": "/catalogue/sapiens-a-brief-history-of-humankind_996",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_3"
+            }
+          },
+          {
+            "id": "catalogue_sapiens_a_brief_history_of_humankind_996::form_4",
+            "page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_4\"]",
+            "tag": "form",
+            "element_id": "form_4",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_sapiens_a_brief_history_of_humankind_996",
+            "target_path": "/catalogue/sapiens-a-brief-history-of-humankind_996",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_4"
+            }
+          },
+          {
+            "id": "catalogue_the_requiem_red_995::action_1",
+            "page_id": "catalogue_the_requiem_red_995",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../../index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Books to Scrape",
+            "role": "link",
+            "raw_target": "../../index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../..",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../../index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_1"
+            }
+          },
+          {
+            "id": "catalogue_the_requiem_red_995::action_2",
+            "page_id": "catalogue_the_requiem_red_995",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../../index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Home",
+            "role": "link",
+            "raw_target": "../../index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../..",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../../index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_2"
+            }
+          },
+          {
+            "id": "catalogue_the_requiem_red_995::action_3",
+            "page_id": "catalogue_the_requiem_red_995",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../category/books_1/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Books",
+            "role": "link",
+            "raw_target": "../category/books_1/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../category/books_1",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../category/books_1/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_3"
+            }
+          },
+          {
+            "id": "catalogue_the_requiem_red_995::action_4",
+            "page_id": "catalogue_the_requiem_red_995",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../category/books/young-adult_21/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Young Adult",
+            "role": "link",
+            "raw_target": "../category/books/young-adult_21/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../category/books/young-adult_21",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../category/books/young-adult_21/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_4"
+            }
+          },
+          {
+            "id": "catalogue_the_requiem_red_995::action_5",
+            "page_id": "catalogue_the_requiem_red_995",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Sapiens: A Brief History of Humankind\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Sapiens: A Brief History ...",
+            "role": "link",
+            "raw_target": "../sapiens-a-brief-history-of-humankind_996/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../sapiens-a-brief-history-of-humankind_996",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../sapiens-a-brief-history-of-humankind_996/index.html",
+              "title": "Sapiens: A Brief History of Humankind"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_5"
+            }
+          },
+          {
+            "id": "catalogue_the_requiem_red_995::action_6",
+            "page_id": "catalogue_the_requiem_red_995",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Sharp Objects\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Sharp Objects",
+            "role": "link",
+            "raw_target": "../sharp-objects_997/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../sharp-objects_997",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../sharp-objects_997/index.html",
+              "title": "Sharp Objects"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_6"
+            }
+          },
+          {
+            "id": "catalogue_the_requiem_red_995::action_7",
+            "page_id": "catalogue_the_requiem_red_995",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Soumission\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Soumission",
+            "role": "link",
+            "raw_target": "../soumission_998/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../soumission_998",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../soumission_998/index.html",
+              "title": "Soumission"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_7"
+            }
+          },
+          {
+            "id": "catalogue_the_requiem_red_995::action_8",
+            "page_id": "catalogue_the_requiem_red_995",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Tipping the Velvet\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Tipping the Velvet",
+            "role": "link",
+            "raw_target": "../tipping-the-velvet_999/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../tipping-the-velvet_999",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../tipping-the-velvet_999/index.html",
+              "title": "Tipping the Velvet"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_8"
+            }
+          },
+          {
+            "id": "catalogue_the_requiem_red_995::action_9",
+            "page_id": "catalogue_the_requiem_red_995",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"A Light in the Attic\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "A Light in the ...",
+            "role": "link",
+            "raw_target": "../a-light-in-the-attic_1000/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../a-light-in-the-attic_1000",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../a-light-in-the-attic_1000/index.html",
+              "title": "A Light in the Attic"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_9"
+            }
+          },
+          {
+            "id": "catalogue_the_requiem_red_995::form_1",
+            "page_id": "catalogue_the_requiem_red_995",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_1\"]",
+            "tag": "form",
+            "element_id": "form_1",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_requiem_red_995",
+            "target_path": "/catalogue/the-requiem-red_995",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_1"
+            }
+          },
+          {
+            "id": "catalogue_the_requiem_red_995::form_2",
+            "page_id": "catalogue_the_requiem_red_995",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_2\"]",
+            "tag": "form",
+            "element_id": "form_2",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_requiem_red_995",
+            "target_path": "/catalogue/the-requiem-red_995",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_2"
+            }
+          },
+          {
+            "id": "catalogue_the_requiem_red_995::form_3",
+            "page_id": "catalogue_the_requiem_red_995",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_3\"]",
+            "tag": "form",
+            "element_id": "form_3",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_requiem_red_995",
+            "target_path": "/catalogue/the-requiem-red_995",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_3"
+            }
+          },
+          {
+            "id": "catalogue_the_requiem_red_995::form_4",
+            "page_id": "catalogue_the_requiem_red_995",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_4\"]",
+            "tag": "form",
+            "element_id": "form_4",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_requiem_red_995",
+            "target_path": "/catalogue/the-requiem-red_995",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_4"
+            }
+          },
+          {
+            "id": "catalogue_the_requiem_red_995::form_5",
+            "page_id": "catalogue_the_requiem_red_995",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_5\"]",
+            "tag": "form",
+            "element_id": "form_5",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_requiem_red_995",
+            "target_path": "/catalogue/the-requiem-red_995",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_5"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::action_1",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../../index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Books to Scrape",
+            "role": "link",
+            "raw_target": "../../index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../..",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../../index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_1"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::action_2",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../../index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Home",
+            "role": "link",
+            "raw_target": "../../index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../..",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../../index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_2"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::action_3",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../category/books_1/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Books",
+            "role": "link",
+            "raw_target": "../category/books_1/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../category/books_1",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../category/books_1/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_3"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::action_4",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../category/books/business_35/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Business",
+            "role": "link",
+            "raw_target": "../category/books/business_35/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../category/books/business_35",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../category/books/business_35/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_4"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::action_5",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"The Requiem Red\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "The Requiem Red",
+            "role": "link",
+            "raw_target": "../the-requiem-red_995/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../the-requiem-red_995",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../the-requiem-red_995/index.html",
+              "title": "The Requiem Red"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_5"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::action_6",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Sapiens: A Brief History of Humankind\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Sapiens: A Brief History ...",
+            "role": "link",
+            "raw_target": "../sapiens-a-brief-history-of-humankind_996/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../sapiens-a-brief-history-of-humankind_996",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../sapiens-a-brief-history-of-humankind_996/index.html",
+              "title": "Sapiens: A Brief History of Humankind"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_6"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::action_7",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Sharp Objects\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Sharp Objects",
+            "role": "link",
+            "raw_target": "../sharp-objects_997/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../sharp-objects_997",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../sharp-objects_997/index.html",
+              "title": "Sharp Objects"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_7"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::action_8",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Soumission\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Soumission",
+            "role": "link",
+            "raw_target": "../soumission_998/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../soumission_998",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../soumission_998/index.html",
+              "title": "Soumission"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_8"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::action_9",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Tipping the Velvet\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Tipping the Velvet",
+            "role": "link",
+            "raw_target": "../tipping-the-velvet_999/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../tipping-the-velvet_999",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../tipping-the-velvet_999/index.html",
+              "title": "Tipping the Velvet"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_9"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::action_10",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"A Light in the Attic\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "A Light in the ...",
+            "role": "link",
+            "raw_target": "../a-light-in-the-attic_1000/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../a-light-in-the-attic_1000",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../a-light-in-the-attic_1000/index.html",
+              "title": "A Light in the Attic"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_10"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::form_1",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_1\"]",
+            "tag": "form",
+            "element_id": "form_1",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "target_path": "/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_1"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::form_2",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_2\"]",
+            "tag": "form",
+            "element_id": "form_2",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "target_path": "/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_2"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::form_3",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_3\"]",
+            "tag": "form",
+            "element_id": "form_3",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "target_path": "/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_3"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::form_4",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_4\"]",
+            "tag": "form",
+            "element_id": "form_4",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "target_path": "/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_4"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::form_5",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_5\"]",
+            "tag": "form",
+            "element_id": "form_5",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "target_path": "/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_5"
+            }
+          },
+          {
+            "id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994::form_6",
+            "page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_6\"]",
+            "tag": "form",
+            "element_id": "form_6",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_dirty_little_secrets_of_getting_your_dream_job_994",
+            "target_path": "/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_6"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::action_1",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../../index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Books to Scrape",
+            "role": "link",
+            "raw_target": "../../index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../..",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../../index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_1"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::action_2",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../../index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Home",
+            "role": "link",
+            "raw_target": "../../index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../..",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../../index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_2"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::action_3",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../category/books_1/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Books",
+            "role": "link",
+            "raw_target": "../category/books_1/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../category/books_1",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../category/books_1/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_3"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::action_4",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../category/books/default_15/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Default",
+            "role": "link",
+            "raw_target": "../category/books/default_15/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../category/books/default_15",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../category/books/default_15/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_4"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::action_5",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"The Dirty Little Secrets of Getting Your Dream Job\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "The Dirty Little Secrets ...",
+            "role": "link",
+            "raw_target": "../the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../the-dirty-little-secrets-of-getting-your-dream-job_994",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+              "title": "The Dirty Little Secrets of Getting Your Dream Job"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_5"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::action_6",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"The Requiem Red\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "The Requiem Red",
+            "role": "link",
+            "raw_target": "../the-requiem-red_995/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../the-requiem-red_995",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../the-requiem-red_995/index.html",
+              "title": "The Requiem Red"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_6"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::action_7",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Sapiens: A Brief History of Humankind\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Sapiens: A Brief History ...",
+            "role": "link",
+            "raw_target": "../sapiens-a-brief-history-of-humankind_996/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../sapiens-a-brief-history-of-humankind_996",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../sapiens-a-brief-history-of-humankind_996/index.html",
+              "title": "Sapiens: A Brief History of Humankind"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_7"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::action_8",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Sharp Objects\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Sharp Objects",
+            "role": "link",
+            "raw_target": "../sharp-objects_997/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../sharp-objects_997",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../sharp-objects_997/index.html",
+              "title": "Sharp Objects"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_8"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::action_9",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Soumission\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Soumission",
+            "role": "link",
+            "raw_target": "../soumission_998/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../soumission_998",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../soumission_998/index.html",
+              "title": "Soumission"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_9"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::action_10",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Tipping the Velvet\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Tipping the Velvet",
+            "role": "link",
+            "raw_target": "../tipping-the-velvet_999/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../tipping-the-velvet_999",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../tipping-the-velvet_999/index.html",
+              "title": "Tipping the Velvet"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_10"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::form_1",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_1\"]",
+            "tag": "form",
+            "element_id": "form_1",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "target_path": "/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_1"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::form_2",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_2\"]",
+            "tag": "form",
+            "element_id": "form_2",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "target_path": "/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_2"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::form_3",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_3\"]",
+            "tag": "form",
+            "element_id": "form_3",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "target_path": "/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_3"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::form_4",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_4\"]",
+            "tag": "form",
+            "element_id": "form_4",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "target_path": "/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_4"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::form_5",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_5\"]",
+            "tag": "form",
+            "element_id": "form_5",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "target_path": "/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_5"
+            }
+          },
+          {
+            "id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993::form_6",
+            "page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_6\"]",
+            "tag": "form",
+            "element_id": "form_6",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_coming_woman_a_novel_based_on_the_life_of_the_infamous_feminist_victoria_woodhull_993",
+            "target_path": "/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_6"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::action_1",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../../index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Books to Scrape",
+            "role": "link",
+            "raw_target": "../../index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../..",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../../index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_1"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::action_2",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../../index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Home",
+            "role": "link",
+            "raw_target": "../../index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../..",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../../index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_2"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::action_3",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../category/books_1/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Books",
+            "role": "link",
+            "raw_target": "../category/books_1/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../category/books_1",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../category/books_1/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_3"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::action_4",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "CLICK_LINK",
+            "selector": "a[href=\"../category/books/default_15/index.html\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Default",
+            "role": "link",
+            "raw_target": "../category/books/default_15/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../category/books/default_15",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../category/books/default_15/index.html"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_4"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::action_5",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "The Coming Woman: A ...",
+            "role": "link",
+            "raw_target": "../the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html",
+              "title": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_5"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::action_6",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"The Dirty Little Secrets of Getting Your Dream Job\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "The Dirty Little Secrets ...",
+            "role": "link",
+            "raw_target": "../the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../the-dirty-little-secrets-of-getting-your-dream-job_994",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+              "title": "The Dirty Little Secrets of Getting Your Dream Job"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_6"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::action_7",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"The Requiem Red\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "The Requiem Red",
+            "role": "link",
+            "raw_target": "../the-requiem-red_995/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../the-requiem-red_995",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../the-requiem-red_995/index.html",
+              "title": "The Requiem Red"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_7"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::action_8",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Sapiens: A Brief History of Humankind\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Sapiens: A Brief History ...",
+            "role": "link",
+            "raw_target": "../sapiens-a-brief-history-of-humankind_996/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../sapiens-a-brief-history-of-humankind_996",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../sapiens-a-brief-history-of-humankind_996/index.html",
+              "title": "Sapiens: A Brief History of Humankind"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_8"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::action_9",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Sharp Objects\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Sharp Objects",
+            "role": "link",
+            "raw_target": "../sharp-objects_997/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../sharp-objects_997",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../sharp-objects_997/index.html",
+              "title": "Sharp Objects"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_9"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::action_10",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "CLICK_LINK",
+            "selector": "a[title=\"Soumission\"]",
+            "tag": "a",
+            "element_id": "hero_cta",
+            "element_text": "Soumission",
+            "role": "link",
+            "raw_target": "../soumission_998/index.html",
+            "target_kind": "internal_link",
+            "target_page_id": "",
+            "target_path": "/catalogue/../soumission_998",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {
+              "href": "../soumission_998/index.html",
+              "title": "Soumission"
+            },
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "action_10"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::form_1",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_1\"]",
+            "tag": "form",
+            "element_id": "form_1",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "target_path": "/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_1"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::form_2",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_2\"]",
+            "tag": "form",
+            "element_id": "form_2",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "target_path": "/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_2"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::form_3",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_3\"]",
+            "tag": "form",
+            "element_id": "form_3",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "target_path": "/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_3"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::form_4",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_4\"]",
+            "tag": "form",
+            "element_id": "form_4",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "target_path": "/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_4"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::form_5",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_5\"]",
+            "tag": "form",
+            "element_id": "form_5",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "target_path": "/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_5"
+            }
+          },
+          {
+            "id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992::form_6",
+            "page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "action_type": "SUBMIT_FORM",
+            "selector": "form[data-mf-action=\"form_6\"]",
+            "tag": "form",
+            "element_id": "form_6",
+            "element_text": "Add to basket",
+            "role": "form_submit",
+            "raw_target": "",
+            "target_kind": "form_submit",
+            "target_page_id": "catalogue_the_boys_in_the_boat_nine_americans_and_their_epic_quest_for_gold_at_the_1936_berlin_olympics_992",
+            "target_path": "/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992",
+            "method": "GET",
+            "issue_code": "",
+            "attributes": {},
+            "context": {
+              "variant_id": "A",
+              "source_action_id": "form_6"
+            }
+          }
+        ],
+        "issues": [],
+        "quality": {
+          "pages": 6,
+          "actions": 90,
+          "target_kind_counts": {
+            "internal_page": 2,
+            "internal_link": 61,
+            "form_submit": 27
+          },
+          "issues": 0,
+          "unresolved_actions": 0,
+          "static_coverage": 1.0,
+          "goal_reachable": false,
+          "extractor": "rendered_browser"
+        },
+        "extractor": "rendered_browser"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "siteUrl": "https://books.toscrape.com/",
+  "title": "Books to Scrape \u2014 sample report",
+  "max_pages": 6,
+  "use_llm_explorer": true,
+  "auto_explore_after_import": true,
+  "run_id": "sample_books_toscrape"
+}
