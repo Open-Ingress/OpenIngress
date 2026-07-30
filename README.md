@@ -98,6 +98,18 @@ make frontend   # terminal 2 — UI :5175
 
 Needs **Python 3.10+** (or `python3`) and **Node 18+**. `make install` downloads Chromium for Playwright.
 
+### Sample report (no crawl wait)
+
+With API + UI running, load a completed [books.toscrape.com](https://books.toscrape.com/) audit:
+
+```bash
+make sample
+```
+
+Open **http://localhost:5175/app/runs/sample_books_toscrape**
+
+Details: [examples/books-toscrape/README.md](examples/books-toscrape/README.md).
+
 Configuration, Docker, and deployment: [SELF_HOST.md](SELF_HOST.md).
 
 ## Configuration
@@ -118,6 +130,7 @@ Runs and exploration require a configured LLM key.
 |------|-------------|
 | `backend/` | Flask API, crawl/explore workers, report generation |
 | `frontend/` | Vue dashboard |
+| `examples/` | Sample run (`make sample`) |
 | `docs/` | Agent brief, Playwright recording notes |
 | `Dockerfile` | Playwright + Gunicorn container |
 

@@ -1,0 +1,15 @@
+{
+  "action_accessibility_percent": 100.0,
+  "page_coverage_percent": 100.0,
+  "accessible_actions": 90,
+  "total_actions": 90,
+  "blocked_actions": 0,
+  "external_actions": 0,
+  "on_site_only_percent": 100.0,
+  "by_target_kind": {
+    "internal_page": 2,
+    "internal_link": 61,
+    "form_submit": 27
+  },
+  "static_coverage": 1.0
+}

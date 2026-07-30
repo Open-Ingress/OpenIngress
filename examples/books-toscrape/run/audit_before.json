@@ -1,0 +1,153 @@
+{
+  "page_type": "developer_tool",
+  "headline": "All products",
+  "audit_focus": "Maximize agent accessibility and speed across the captured site.",
+  "agent_accessibility_score": 100.0,
+  "agent_speed_score": 56.3,
+  "overall_score": 84.5,
+  "crawl_base_score": 86.9,
+  "score_breakdown": {
+    "crawl_accessibility": 100.0,
+    "crawl_speed": 56.3,
+    "static_operability": 50.0,
+    "explore_delta": 0.0,
+    "includes_explore": false
+  },
+  "score_methodology": "Overall = crawl accessibility/speed + static operability (llms.txt, labels, DOM).",
+  "speed_summary": {
+    "score": 56.3,
+    "proxy_label": "structural_speed_proxy",
+    "html_bytes": 146329,
+    "page_count": 6,
+    "dom_node_count": 1498,
+    "max_dom_depth": 14,
+    "interactive_node_count": 215,
+    "interactive_density_percent": 14.35,
+    "landmark_node_count": 119,
+    "text_char_count": 16210,
+    "text_word_count": 2677,
+    "script_count": 6,
+    "stylesheet_count": 18,
+    "image_count": 52,
+    "blocked_action_count": 0
+  },
+  "speed_findings": [
+    "Simplify the DOM tree; very large page structures raise agent scan cost even before clicks begin.",
+    "Consolidate render-blocking stylesheets so agents reach interactive state faster.",
+    "Lazy-load below-the-fold images and keep the initial viewport lightweight.",
+    "Reduce interactive crowding in the first view; dense action clusters increase agent selection cost."
+  ],
+  "top_action_label": "Books",
+  "top_action_selector": "a[href=\"catalogue/category/books_1/index.html\"]",
+  "confidence": 0.59,
+  "rationale": [
+    "Page type: developer tool.",
+    "Agent accessibility score: 100.0%.",
+    "Agent speed score: 56.3%.",
+    "Overall agent score: 84.5/100 (crawl base 86.9).",
+    "Top action to preserve while optimizing: \"Books\" (primary CTA).",
+    "Captured 6 pages: / \u2192 /catalogue/sapiens-a-brief-history-of-humankind_996 \u2192 /catalogue/the-requiem-red_995 \u2192 /catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994."
+  ],
+  "secondary_signals": [],
+  "funnel_summary": "Captured 6 pages: / \u2192 /catalogue/sapiens-a-brief-history-of-humankind_996 \u2192 /catalogue/the-requiem-red_995 \u2192 /catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994.",
+  "top_actions": [
+    {
+      "selector": "a[href=\"catalogue/category/books_1/index.html\"]",
+      "label": "Books",
+      "score": 0.55,
+      "reason": "primary CTA",
+      "target_path": "catalogue/category/books_1/index.html"
+    },
+    {
+      "selector": "a[href=\"catalogue/category/books/travel_2/index.html\"]",
+      "label": "Travel",
+      "score": 0.55,
+      "reason": "primary CTA",
+      "target_path": "catalogue/category/books/travel_2/index.html"
+    },
+    {
+      "selector": "a[href=\"catalogue/category/books/mystery_3/index.html\"]",
+      "label": "Mystery",
+      "score": 0.55,
+      "reason": "primary CTA",
+      "target_path": "catalogue/category/books/mystery_3/index.html"
+    },
+    {
+      "selector": "a[href=\"catalogue/category/books/historical-fiction_4/index.html\"]",
+      "label": "Historical Fiction",
+      "score": 0.55,
+      "reason": "primary CTA",
+      "target_path": "catalogue/category/books/historical-fiction_4/index.html"
+    },
+    {
+      "selector": "a[href=\"catalogue/category/books/sequential-art_5/index.html\"]",
+      "label": "Sequential Art",
+      "score": 0.55,
+      "reason": "primary CTA",
+      "target_path": "catalogue/category/books/sequential-art_5/index.html"
+    }
+  ],
+  "recommendations": [
+    "100.0% of on-site captured actions are agent-navigable (90/90).",
+    "Simplify the DOM tree; very large page structures raise agent scan cost even before clicks begin.",
+    "Consolidate render-blocking stylesheets so agents reach interactive state faster.",
+    "Lazy-load below-the-fold images and keep the initial viewport lightweight.",
+    "Improve static operability checks (labels, llms.txt, DOM size) \u2014 see static audit details.",
+    "Static check failed: llms.txt at domain root \u2014 Requested: https://books.toscrape.com/llms.txt \u2192 \u2014 \u2192 final https://books.toscrape.com/llms.txt. Pass: False \u2014 fetch_erro",
+    "Static check failed: Buttons have accessible names \u2014 0/20 buttons have aria-label or title."
+  ],
+  "probe_tasks": [
+    {
+      "id": "accessibility_speed_probe",
+      "name": "Accessibility and speed probe",
+      "instruction": "Act like a browser agent (accessibility tree): explore the site by role and name, prefer on-site navigation, and verify \u201cBooks\u201d is reachable.",
+      "success_url_contains": "catalogue/category/books_1/index.html",
+      "success_text": "Books",
+      "success_selector": "a[href=\"catalogue/category/books_1/index.html\"]"
+    }
+  ],
+  "static_audit_summary": {
+    "pass_ratio": 0.5,
+    "passed": 2,
+    "total": 4
+  },
+  "coverage": {
+    "action_accessibility_percent": 100.0,
+    "page_coverage_percent": 100.0,
+    "accessible_actions": 90,
+    "total_actions": 90,
+    "blocked_actions": 0,
+    "external_actions": 0,
+    "on_site_only_percent": 100.0,
+    "by_target_kind": {
+      "internal_page": 2,
+      "internal_link": 61,
+      "form_submit": 27
+    },
+    "static_coverage": 1.0
+  },
+  "navigation_issues": [],
+  "readiness": {
+    "readiness_score": 83.6,
+    "crawl_completeness_percent": 18.18,
+    "static_accessibility_percent": 100.0,
+    "aria_match_percent": 0.0,
+    "activation_percent": 0.0,
+    "catalog": {
+      "pages": 6,
+      "internal_urls_discovered": 33,
+      "total_actions": 90,
+      "on_site_actions": 90,
+      "info_nodes": 0
+    },
+    "methodology": "Universe built from crawl only. Run agent exploration to score aria match and activation."
+  },
+  "universe_totals": {
+    "actions": 90,
+    "info_nodes": 0,
+    "on_site_actions": 90,
+    "off_site_actions": 0,
+    "internal_page_actions": 2,
+    "dead_or_unknown_actions": 0
+  }
+}
