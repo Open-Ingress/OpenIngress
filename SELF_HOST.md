@@ -39,7 +39,58 @@ On Linux you may also need: `python -m playwright install-deps chromium`
 | `VITE_AUTH_DISABLED=1` | `frontend/.env` | Must match backend for local OSS |
 | `VITE_API_URL` | `frontend/.env` | Points at local API |
 
-Optional: `LLM_BASE_URL`, `LLM_MODEL_NAME`, Azure OpenAI vars.
+Optional: `LLM_BASE_URL`, `LLM_MODEL_NAME`, Azure OpenAI vars — see **LLM providers** below.
+
+## LLM providers
+
+OpenIngress talks to an **OpenAI-compatible** chat API (`/chat/completions`). Set these in `backend/.env`, then restart the backend.
+
+| Variable | Purpose |
+|----------|---------|
+| `LLM_PROVIDER` | `openai` (default) or `azure` |
+| `LLM_API_KEY` | API key |
+| `LLM_BASE_URL` | Chat completions base URL |
+| `LLM_MODEL_NAME` | Model id |
+
+### OpenAI
+
+```bash
+LLM_PROVIDER=openai
+LLM_API_KEY=sk-...
+LLM_BASE_URL=https://api.openai.com/v1
+LLM_MODEL_NAME=gpt-4o-mini
+```
+
+### Google Gemini (OpenAI-compatible endpoint)
+
+```bash
+LLM_PROVIDER=openai
+LLM_API_KEY=your-gemini-api-key
+LLM_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/
+LLM_MODEL_NAME=gemini-flash-latest
+```
+
+### Azure OpenAI
+
+```bash
+LLM_PROVIDER=azure
+AZURE_OPENAI_API_KEY=...
+AZURE_OPENAI_ENDPOINT=https://YOUR_RESOURCE.openai.azure.com/
+AZURE_OPENAI_DEPLOYMENT=your-deployment-name
+```
+
+You can also set `LLM_API_KEY` / `LLM_MODEL_NAME` to match the deployment if your setup still reads the generic vars.
+
+### Other OpenAI-compatible hosts
+
+Any gateway that exposes `/chat/completions` works (OpenRouter, Ollama with an OpenAI shim, company proxies, etc.):
+
+```bash
+LLM_PROVIDER=openai
+LLM_API_KEY=...
+LLM_BASE_URL=https://your-host.example/v1
+LLM_MODEL_NAME=your-model-id
+```
 
 ## Crawl defaults
 
